@@ -1,1 +1,1 @@
-# pc
+# training project PC
