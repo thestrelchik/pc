@@ -3,9 +3,10 @@
 }
 html, body {
     font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     color: white;
-    background-color: #000000;
+    background-color: #262626;
 }
 img {
     width: 100%;
@@ -69,8 +70,12 @@ button {
 }
 .header_nav a {
     font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 150%;
 }
 .header_button {
+    font-weight: 400;
+    line-height: 150%;
     font-size: 1.6rem;
     background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -82,6 +87,8 @@ button {
     padding-top: 10rem;
 }
 .main_tittle {
+    font-weight: 700;
+    line-height: 140%;
     font-size: 6.4rem;
     max-width: 75rem;
     margin: 0 0 5rem 0;
@@ -93,6 +100,7 @@ button {
 .main_display .container {
     position: relative;
     z-index: 10;
+    padding-bottom: 22.8rem;
 }
 
 .timer_item {
@@ -108,19 +116,55 @@ button {
     margin-right: 3rem;
 }
 .timer_count {
+    font-weight: 700;
+    line-height: 140%;
     font-size: 3.6rem
 }
 .timer_text {
+    font-weight: 400;
+    line-height: 140%;
     font-size: 1.6rem;
     opacity: 0.4;
 }
 .button_main {
     background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
     font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 150%;
 }
 .main_dispaly_bg {
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
+}
+
+/* work */
+
+.work {
+    padding-top: 20rem;
+    padding-bottom: 24.3rem;
+}
+.work_wrap {
+    display: flex;
+}
+.work_img {
+    width: 52.6rem;
+    height: 54.2rem;
+    margin-right: 13.9rem;
+}
+.work_header {
+    margin-bottom: 4.5rem;
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 140%;
+}
+.work_text {
+    max-width: 63.6rem;
+    padding-top: 6.9rem;
+}
+.work_desc {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 160%;
 }
