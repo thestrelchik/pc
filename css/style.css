@@ -227,3 +227,46 @@ button {
     line-height: 160%;
     opacity: 0.5;
 }
+
+/* assembly */
+
+.assembly {
+    padding-bottom: 24.4rem;
+}
+.assembly_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.assembly_header {
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 140%;
+    margin-bottom: 3rem;
+}
+.assembly_desc {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 160%;
+    opacity: 0.5;
+    margin-bottom: 4.2rem;
+}
+.assembly_button {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 150%;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    margin-bottom: 4rem;
+}
+.assembly_social {
+    display: flex;
+}
+.assembly_item {
+    cursor: pointer;
+    height: 5rem;
+    width: 5rem;
+}
+.assembly_item:not(:last-child) {
+    margin-right: 7rem;
+}
